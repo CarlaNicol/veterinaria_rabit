@@ -1,0 +1,532 @@
+{
+  "clientes": [
+    {
+      "id": "1",
+      "nombre": "Juan Lopez",
+      "telefono": "555-1234",
+      "direccion": "123 Calle Falsa",
+      "mascotas": [
+        {
+          "id": "1",
+          "nombre": "Fido",
+          "especie": "Perro",
+          "raza": "Labrador",
+          "edad": "5",
+          "clienteId": "1"
+        },
+        {
+          "id": "2",
+          "nombre": "Whiskers",
+          "especie": "Gato",
+          "raza": "Siamés",
+          "edad": "3",
+          "clienteId": "1"
+        }
+      ]
+    },
+    {
+      "id": "2",
+      "nombre": "Ana García",
+      "telefono": "555-5678",
+      "direccion": "456 Calle Verdadera"
+    },
+    {
+      "id": "3",
+      "nombre": "Luis Martínez",
+      "telefono": "555-9999",
+      "direccion": "789 Calle Inventada"
+    },
+    {
+      "id": "5",
+      "nombre": "Pedro Sánchez",
+      "telefono": "555-7777",
+      "direccion": "456 Calle Real"
+    },
+    {
+      "id": "6",
+      "nombre": "Laura Torres",
+      "telefono": "555-6666",
+      "direccion": "789 Calle Real"
+    },
+    {
+      "id": "7",
+      "nombre": "Carmen Hernández",
+      "telefono": "555-5555",
+      "direccion": "123 Calle Falsa"
+    },
+    {
+      "id": "8",
+      "nombre": "Diego Ruiz",
+      "telefono": "555-4444",
+      "direccion": "456 Calle Verdadera"
+    },
+    {
+      "id": "9",
+      "nombre": "Sofia Ramírez",
+      "telefono": "555-3333",
+      "direccion": "789 Calle Inventada"
+    },
+    {
+      "id": "10",
+      "nombre": "José Fernández",
+      "telefono": "555-2222",
+      "direccion": "123 Calle Real"
+    }
+  ],
+  "mascotas": [
+    {
+      "id": "3",
+      "nombre": "Rex",
+      "especie": "Perro",
+      "raza": "Pastor Alemán",
+      "edad": "7",
+      "clienteId": "3"
+    },
+    {
+      "id": "4",
+      "nombre": "Buddy",
+      "especie": "Perro",
+      "raza": "Beagle",
+      "edad": "4",
+      "clienteId": "3"
+    },
+    {
+      "id": "5",
+      "nombre": "Max",
+      "especie": "Perro",
+      "raza": "Bulldog",
+      "edad": "6",
+      "clienteId": null
+    },
+    {
+      "id": "6",
+      "nombre": "Bella",
+      "especie": "Gato",
+      "raza": "Persa",
+      "edad": "2",
+      "clienteId": "5"
+    },
+    {
+      "id": "7",
+      "nombre": "Luna",
+      "especie": "Gato",
+      "raza": "Maine Coon",
+      "edad": "3",
+      "clienteId": "6"
+    },
+    {
+      "id": "8",
+      "nombre": "Rocky",
+      "especie": "Perro",
+      "raza": "Boxer",
+      "edad": "4",
+      "clienteId": "7"
+    },
+    {
+      "id": "9",
+      "nombre": "Charlie",
+      "especie": "Perro",
+      "raza": "Poodle",
+      "edad": "5",
+      "clienteId": "8"
+    },
+    {
+      "id": "10",
+      "nombre": "Lucy",
+      "especie": "Gato",
+      "raza": "Siberiano",
+      "edad": "1",
+      "clienteId": "5",
+      "clientes": []
+    },
+    {
+      "id": "11",
+      "nombre": "Simba",
+      "especie": "Perro",
+      "raza": "Golden Retriever",
+      "edad": "6",
+      "clienteId": "10"
+    },
+    {
+      "id": "86b1",
+      "nombre": "era",
+      "especie": "Gato",
+      "raza": "cook",
+      "edad": 8,
+      "clienteId": "8"
+    },
+    {
+      "id": "86b1",
+      "nombre": "era",
+      "especie": "Gato",
+      "raza": "cook",
+      "edad": 8,
+      "clienteId": "8"
+    },
+    {
+      "id": "6e92",
+      "nombre": "pepe",
+      "especie": "Gato",
+      "raza": "er",
+      "edad": 6,
+      "clienteId": "8"
+    },
+    {
+      "id": "8c11",
+      "nombre": "as",
+      "especie": "Perro",
+      "raza": "we",
+      "edad": 3,
+      "clienteId": "2"
+    },
+    {
+      "id": "8c11",
+      "nombre": "as",
+      "especie": "Perro",
+      "raza": "we",
+      "edad": 3,
+      "clienteId": "2"
+    },
+    {
+      "id": "4475",
+      "nombre": "ed",
+      "especie": "Perro",
+      "raza": "re",
+      "edad": 3,
+      "clienteId": "2"
+    },
+    {
+      "id": "4475",
+      "nombre": "ed",
+      "especie": "Perro",
+      "raza": "re",
+      "edad": 3,
+      "clienteId": "2"
+    },
+    {
+      "id": "c0d3",
+      "nombre": "df",
+      "especie": "Perro",
+      "raza": "fd",
+      "edad": 6,
+      "clienteId": "3"
+    },
+    {
+      "id": "3bc1",
+      "nombre": "sd",
+      "especie": "Gato",
+      "raza": "wd",
+      "edad": 3,
+      "clienteId": "6"
+    },
+    {
+      "id": "3bc1",
+      "nombre": "sd",
+      "especie": "Gato",
+      "raza": "wd",
+      "edad": 3,
+      "clienteId": "6"
+    },
+    {
+      "id": "d861",
+      "nombre": "fd",
+      "especie": "Perro",
+      "raza": "fdg",
+      "edad": 4,
+      "clienteId": "3"
+    },
+    {
+      "id": "d861",
+      "nombre": "fd",
+      "especie": "Perro",
+      "raza": "fdg",
+      "edad": 4,
+      "clienteId": "3"
+    },
+    {
+      "id": "bc09",
+      "nombre": "ljhh",
+      "especie": "Perro",
+      "raza": "sd",
+      "edad": 5,
+      "clienteId": "2"
+    },
+    {
+      "id": "f04d",
+      "nombre": "red",
+      "especie": "Gato",
+      "raza": "gtr",
+      "edad": 4,
+      "clienteId": "8"
+    },
+    {
+      "id": "f04d",
+      "nombre": "red",
+      "especie": "Gato",
+      "raza": "gtr",
+      "edad": 4,
+      "clienteId": "8"
+    }
+  ],
+  "veterinarios": [
+    {
+      "id": "1",
+      "nombre": "Dra. María López",
+      "especialidad": "Cirugía",
+      "telefono": "555-8765"
+    },
+    {
+      "id": "2",
+      "nombre": "Dr. Carlos Fernández",
+      "especialidad": "Dermatología",
+      "telefono": "555-4321"
+    },
+    {
+      "id": "3",
+      "nombre": "Dra. Ana Martínez",
+      "especialidad": "Medicina Interna",
+      "telefono": "555-6543"
+    },
+    {
+      "id": "4",
+      "nombre": "Dr. Javier Torres",
+      "especialidad": "Oncología",
+      "telefono": "555-3456"
+    },
+    {
+      "id": "5",
+      "nombre": "Dra. Laura Díaz",
+      "especialidad": "Cardiología",
+      "telefono": "555-2345"
+    }
+  ],
+  "citas": [
+    {
+      "id": "1",
+      "clienteId": "1",
+      "mascotaId": null,
+      "veterinarioId": "1",
+      "fecha": "2024-08-01",
+      "hora": "10:00",
+      "motivo": "Chequeo general"
+    },
+    {
+      "id": "2",
+      "clienteId": "2",
+      "mascotaId": "3",
+      "veterinarioId": "2",
+      "fecha": "2024-08-02",
+      "hora": "14:00",
+      "motivo": "Revisión dermatológica"
+    },
+    {
+      "id": "3",
+      "clienteId": "3",
+      "mascotaId": "4",
+      "veterinarioId": "3",
+      "fecha": "2024-08-03",
+      "hora": "11:00",
+      "motivo": "Vacunación"
+    },
+    {
+      "id": "4",
+      "clienteId": null,
+      "mascotaId": "5",
+      "veterinarioId": "4",
+      "fecha": "2024-08-04",
+      "hora": "12:00",
+      "motivo": "Chequeo general"
+    },
+    {
+      "id": "5",
+      "clienteId": "5",
+      "mascotaId": "6",
+      "veterinarioId": "5",
+      "fecha": "2024-08-05",
+      "hora": "09:00",
+      "motivo": "Revisión cardiológica"
+    },
+    {
+      "id": "6",
+      "clienteId": "6",
+      "mascotaId": "7",
+      "veterinarioId": "1",
+      "fecha": "2024-08-06",
+      "hora": "10:30",
+      "motivo": "Chequeo general"
+    },
+    {
+      "id": "7",
+      "clienteId": "7",
+      "mascotaId": "8",
+      "veterinarioId": "2",
+      "fecha": "2024-08-07",
+      "hora": "11:30",
+      "motivo": "Chequeo dermatológico"
+    },
+    {
+      "id": "8",
+      "clienteId": "8",
+      "mascotaId": "9",
+      "veterinarioId": "3",
+      "fecha": "2024-08-08",
+      "hora": "13:00",
+      "motivo": "Chequeo general"
+    },
+    {
+      "id": "9",
+      "clienteId": "9",
+      "mascotaId": "10",
+      "veterinarioId": "4",
+      "fecha": "2024-08-09",
+      "hora": "14:30",
+      "motivo": "Chequeo general"
+    },
+    {
+      "id": "10",
+      "clienteId": "10",
+      "mascotaId": "11",
+      "veterinarioId": "5",
+      "fecha": "2024-08-10",
+      "hora": "09:30",
+      "motivo": "Chequeo cardiológico"
+    }
+  ],
+  "vacunas": [
+    {
+      "id": "1",
+      "nombre": "Vacuna A",
+      "descripcion": "Descripción de la Vacuna A"
+    },
+    {
+      "id": "2",
+      "nombre": "Vacuna B",
+      "descripcion": "Descripción de la Vacuna B"
+    },
+    {
+      "id": "3",
+      "nombre": "Vacuna C",
+      "descripcion": "Descripción de la Vacuna C"
+    },
+    {
+      "id": "4",
+      "nombre": "Vacuna D",
+      "descripcion": "Descripción de la Vacuna D"
+    },
+    {
+      "id": "5",
+      "nombre": "Vacuna E",
+      "descripcion": "Descripción de la Vacuna E"
+    }
+  ],
+  "mascotasVacunas": [
+    {
+      "id": "1",
+      "mascotaId": null,
+      "vacunaId": "1",
+      "fecha": "2024-06-01"
+    },
+    {
+      "id": "2",
+      "mascotaId": null,
+      "vacunaId": "2",
+      "fecha": "2024-07-01"
+    },
+    {
+      "id": "3",
+      "mascotaId": null,
+      "vacunaId": "1",
+      "fecha": "2024-07-15"
+    },
+    {
+      "id": "4",
+      "mascotaId": "3",
+      "vacunaId": "3",
+      "fecha": "2024-08-01"
+    },
+    {
+      "id": "5",
+      "mascotaId": "4",
+      "vacunaId": "4",
+      "fecha": "2024-08-02"
+    },
+    {
+      "id": "6",
+      "mascotaId": "5",
+      "vacunaId": "5",
+      "fecha": "2024-08-03"
+    },
+    {
+      "id": "7",
+      "mascotaId": "6",
+      "vacunaId": "1",
+      "fecha": "2024-08-04"
+    },
+    {
+      "id": "8",
+      "mascotaId": "7",
+      "vacunaId": "2",
+      "fecha": "2024-08-05"
+    },
+    {
+      "id": "9",
+      "mascotaId": "8",
+      "vacunaId": "3",
+      "fecha": "2024-08-06"
+    },
+    {
+      "id": "10",
+      "mascotaId": "9",
+      "vacunaId": "4",
+      "fecha": "2024-08-07"
+    },
+    {
+      "id": "11",
+      "mascotaId": "10",
+      "vacunaId": "5",
+      "fecha": "2024-08-08"
+    }
+  ],
+  "usuarios": [
+    {
+      "id": "1",
+      "name": "Maria",
+      "email": "maria@example.com",
+      "password": "123456",
+      "role": "secretaria",
+      "token": "s8dfalsdf82w2324wdfsd9f0w9exdi8s"
+    },
+    {
+      "id": "2",
+      "name": "Rosa",
+      "email": "rosa@example.com",
+      "password": "123456",
+      "role": "veterinario",
+      "token": "sdffalsdf82weids8dfasdfsd9f0w9exdi8s"
+    },
+    {
+      "id": "3",
+      "name": "Carmen",
+      "email": "carmen@example.com",
+      "password": "123456",
+      "role": "secretaria",
+      "token": "s8dfalsdf82fsds8dfasdfsd9f0w9sdfs"
+    },
+    {
+      "id": "4",
+      "name": "Raul",
+      "email": "raul@example.com",
+      "password": "123456",
+      "role": "veterinario",
+      "token": "asdfasdfsf82weids8dfasdfsd9f0fsi8s"
+    },
+    {
+      "id": "5",
+      "name": "Mario",
+      "email": "mario@example.com",
+      "password": "123456",
+      "role": "admin",
+      "token": "2e34sef82weids8dfasdfsd9f0w9exdi8s"
+    }
+  ]
+}
