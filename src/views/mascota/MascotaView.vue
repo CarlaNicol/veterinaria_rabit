@@ -85,8 +85,9 @@ export default {
 
         // Método para filtrar mascotas cuya edad sea mayor a 3
         filtrarPorEdad() {
-            this.filteredList = this.itemList.filter(item => item.edad > 3);
-            console.log('Filtro aplicado: Mascotas con edad mayor a 3 años');
+            console.log("Filtro de edad aplicado");
+            this.filteredList = this.itemList.filter(item => Number(item.edad) > 3);
+            console.log('Mascotas filtradas:', this.filteredList);
         },
 
         // Método para buscar mascotas según el texto de búsqueda
@@ -158,16 +159,6 @@ export default {
         ...mapGetters(['doubleCount', 'getBaseUrl']),
         baseUrl() {
             return this.getBaseUrl;
-        },
-        filteredList() {
-            return this.itemList.filter(item => {
-                const searchQuery = this.textToSearch.trim().toLowerCase();
-                return (
-                    item.nombre.toLowerCase().includes(searchQuery) ||
-                    item.especie.toLowerCase().includes(searchQuery) ||
-                    item.raza.toLowerCase().includes(searchQuery)
-                );
-            });
         }
     },
     mounted() {
@@ -175,6 +166,11 @@ export default {
     }
 }
 </script>
+
+<style scoped>
+/* Aquí puedes agregar tus estilos personalizados */
+</style>
+
 
 <style scoped>
 /* Aquí puedes agregar tus estilos personalizados */
